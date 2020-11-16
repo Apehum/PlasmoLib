@@ -1,0 +1,4 @@
+name: PlasmoLib
+version: ${project.version}
+main: su.plo.lib.PlasmoLib
+api-version: 1.16
