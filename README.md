@@ -4,6 +4,27 @@
 
 Сделано плагином, чтобы можно было установить depend.
 
+## Установка (maven)
+```xml
+<project>
+    <repositories>
+        <repository>
+            <id>plasmo-repo</id>
+            <url>https://repo.plo.su/public/</url>
+        </repository>
+    </repositories>
+    
+    <dependencies>
+        <dependency>
+            <groupId>su.plo</groupId>
+            <artifactId>lib</artifactId>
+            <version>0.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>
+```
+
 ## MySQL
 #### Инициализация в плагине
 

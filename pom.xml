@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>plasmolib</groupId>
-    <artifactId>plasmolib</artifactId>
+    <groupId>su.plo</groupId>
+    <artifactId>lib</artifactId>
     <version>0.0.1</version>
     <packaging>jar</packaging>
 
@@ -51,6 +51,13 @@
             </resource>
         </resources>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>plasmo-repo</id>
+            <url>https://repo.plo.su/public/</url>
+        </repository>
+    </distributionManagement>
 
     <repositories>
         <repository>
