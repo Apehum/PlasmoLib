@@ -10,7 +10,7 @@
     <repositories>
         <repository>
             <id>plasmo-repo</id>
-            <url>https://repo.plo.su/public/</url>
+            <url>https://repo.plo.su</url>
         </repository>
     </repositories>
     
