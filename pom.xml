@@ -6,7 +6,7 @@
 
     <groupId>su.plo</groupId>
     <artifactId>lib</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <packaging>jar</packaging>
 
     <name>PlasmoLib</name>
@@ -68,9 +68,21 @@
             <id>sonatype</id>
             <url>https://oss.sonatype.org/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>sponge-repo</id>
+            <name>Sponge Maven Repository</name>
+            <url>https://repo.spongepowered.org/maven</url>
+        </repository>
     </repositories>
 
     <dependencies>
+        <dependency>
+            <groupId>org.spongepowered</groupId>
+            <artifactId>spongeapi</artifactId>
+            <version>7.3.0</version>
+            <type>jar</type>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>io.nats</groupId>
             <artifactId>jnats</artifactId>

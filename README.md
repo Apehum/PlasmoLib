@@ -4,7 +4,8 @@
 
 Сделано плагином, чтобы можно было установить depend.
 
-## Установка (maven)
+## Установка
+#### Maven
 ```xml
 <project>
     <repositories>
@@ -18,11 +19,21 @@
         <dependency>
             <groupId>su.plo</groupId>
             <artifactId>lib</artifactId>
-            <version>0.0.1</version>
+            <version>0.0.2</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>
+```
+#### Gradle
+```
+dependencies {
+    compileOnly 'su.plo:lib:0.0.2'
+}
+
+repositories {
+    maven { url 'https://repo.plo.su/' }
+}
 ```
 
 ## MySQL
