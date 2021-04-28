@@ -19,7 +19,7 @@
         <dependency>
             <groupId>su.plo</groupId>
             <artifactId>lib</artifactId>
-            <version>0.0.2</version>
+            <version>0.0.7</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
@@ -28,7 +28,7 @@
 #### Gradle
 ```
 dependencies {
-    compileOnly 'su.plo:lib:0.0.2'
+    compileOnly 'su.plo:lib:0.0.7'
 }
 
 repositories {
